@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.ld.dao.JobMapper" >
+  <resultMap id="BaseResultMap" type="com.ld.entity.Job" >
+    <id column="id" property="id" jdbcType="BIGINT" />
+    <result column="user_id" property="userId" jdbcType="BIGINT" />
+    <result column="dept_id" property="deptId" jdbcType="BIGINT" />
+    <result column="job_name" property="jobName" jdbcType="VARCHAR" />
+    <result column="edu" property="edu" jdbcType="VARCHAR" />
+    <result column="low_salary" property="lowSalary" jdbcType="INTEGER" />
+    <result column="top_salary" property="topSalary" jdbcType="INTEGER" />
+    <result column="graduate" property="graduate" jdbcType="VARCHAR" />
+    <result column="job_period" property="jobPeriod" jdbcType="VARCHAR" />
+    <result column="project" property="project" jdbcType="VARCHAR" />
+    <result column="job_duty" property="jobDuty" jdbcType="VARCHAR" />
+    <result column="job_require" property="jobRequire" jdbcType="VARCHAR" />
+    <result column="profession_id" property="professionId" jdbcType="BIGINT" />
+    <result column="created" property="created" jdbcType="TIMESTAMP" />
+    <result column="updated" property="updated" jdbcType="TIMESTAMP" />
+    <result column="created_user" property="createdUser" jdbcType="VARCHAR" />
+    <result column="modified_user" property="modifiedUser" jdbcType="VARCHAR" />
+  </resultMap>
+  
+  
+  
+</mapper>
